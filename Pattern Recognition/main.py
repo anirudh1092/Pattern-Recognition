@@ -3,6 +3,7 @@ import PreprocessData as pre
 
 
 def main():
+    print("Welcome to Pattern Recognition")
     num_cluster=int(input("Enter Number of CLusters of data:  "))
     num_attr=int(input("Enter Number of attributes of the data:  "))
     num_rows = [int(x) for x in input("Enter the number of rows of each Cluster with a 3space :  ").split()]
